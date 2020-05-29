@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}Pepiniere</title>
+
+        {% endblock %}
+    <link rel="icon" type="image/x-icon" href={{asset('/img/core-img/icon.png') }}/>
+
+    {% block stylesheets %}
+
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/bootstrap.min.css') }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/classy-nav.css') }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/owl.carousel.min.css') }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/animate.css')  }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/magnific-popup.css') }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/font-awesome.min.css')  }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/elegant-icon.css') }}>
+        <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/style.css')}}>
+        <link rel="icon" type="image/x-icon" href="{{ asset('img/core-img/icon.png') }}" />
+
+    {% endblock %}
+
+
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="preloader-circle"></div>
+    <div class="preloader-img">
+        <img src={{ asset('img/core-img/leaf.png') }} alt="">
+    </div>
+</div>
+
+
+<header class="header-area">
+
+    <!-- ***** Top Header Area ***** -->
+    <div class="top-header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="top-header-content d-flex align-items-center justify-content-between">
+                        <!-- Top Header Content -->
+
+
+                        <!-- Top Header Content -->
+                        <div class="top-header-meta d-flex">
+                            <!-- Language Dropdown -->
+                            <div class="language-dropdown">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle mr-30" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">langue
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">USA</a>
+                                        <a class="dropdown-item" href="#">FR</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Login -->
+                            <div class="login">
+                                <div>
+                                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                        {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                                        <a href="{{ path('fos_user_security_logout') }}">
+                                            {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                                        </a>
+                                    {% else %}
+                                        <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <!-- Cart -->
+                            <div class="cart">
+                                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Panier <span
+                                                class="cart-quantity">(0)</span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Navbar Area ***** -->
+    <div class="alazea-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                    <!-- Nav Brand -->
+                    <a href="{{ path('homepage') }}" class="nav-brand"><img
+                                src={{ app.request.schemeAndHttpHost ~ asset('img/core-img/logo1.png')}} alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Navbar Start -->
+                        <div class="classynav">
+                            <ul>
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    <li><a href="{{ path('backoffice_homepage') }}">Dashboard</a></li>
+                                {% endif %}
+                                <li><a href="{{ path('homepage') }}">Accueil</a></li>
+                                <li><a href="{{ path('cart') }}">Boutique</a>
+                                    <ul class="dropdown">
+                                        <li><a href="{{ path('cart') }}">Shop</a></li>
+                                        <li><a href="{{ path('cart') }}">Panier</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="{{ path('event') }}">Evenement</a></li>
+                                <li><a href="{{ path('reclamation') }}">Reclamation</a></li>
+
+                                <li><a href="{{ path('listeQuestion') }}">Forum</a>
+                                    <ul class="dropdown">
+                                        <li><a href="{{ path('listeQuestion') }}">Accueil Forum</a></li>
+                                        <li><a href="{{ path('ajoutQuestion') }}">Ajouter une Question</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{{ path('fos_message_inbox') }}">Messagerie</a></li>
+
+                            </ul>
+
+
+                        </div>
+                        <!-- Navbar End -->
+                    </div>
+                </nav>
+
+                <!-- Search Form -->
+                <div class="search-form">
+                    <form action="#" method="get">
+                        <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                        <button type="submit" class="d-none"></button>
+                    </form>
+                    <!-- Close Icon -->
+                    <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% block body %}{% endblock %}
+<footer class="footer-area bg-img" style="background-image: url({{ asset('img/bg-img/3.jpg') }});">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+        <div class="container">
+            <div class="row">
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget">
+                        <div class="footer-logo mb-30">
+                            <a href="#"><img src= {{app.request.schemeAndHttpHost ~ asset('img/core-img/logo.png') }}  alt=""></a>
+                        </div>
+                        <p>Pepiniere est le spécialiste de la vente en ligne en Tunisie. Nous disposons du plus grand
+                            choix et des meilleurs prix en Tunisie</p>
+                        <div class="social-info">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h5>LIEN RAPIDE</h5>
+                        </div>
+                        <nav class="widget-nav">
+                            <ul>
+                                <li><a href="{{ path('listeQuestion') }}">Forum</a></li>
+                                <li></li>
+                                <li><a href="#">Annonces</a></li>
+                                <li></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h5>Meilleures ventes</h5>
+                        </div>
+
+                        <!-- Single Best Seller Products -->
+                        <div class="single-best-seller-product d-flex align-items-center">
+                            <div class="product-thumbnail">
+                                <a href="shop-details.html"><img src={{ app.request.schemeAndHttpHost ~ asset('img/bg-img/4.jpg') }}  alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="shop-details.html">Cactus Flower</a>
+                                <p>$10.99</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Best Seller Products -->
+                        <div class="single-best-seller-product d-flex align-items-center">
+                            <div class="product-thumbnail">
+                                <a href="shop-details.html"><img src={{ app.request.schemeAndHttpHost ~ asset('img/bg-img/5.jpg') }} alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="shop-details.html">Tulip Flower</a>
+                                <p>$11.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h5>CONTACT</h5>
+                        </div>
+
+                        <div class="contact-information">
+                            <p><span>Adresse:</span>Z.I. Chotrana II B.P. 160
+                                Pôle Technologique El Ghazela - Ariana 2083</p>
+                            <p><span>TelePhone:</span>70 685 685</p>
+                            <p><span>Email:</span>blaq@esprit.tn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom Area -->
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-line"></div>
+                </div>
+
+                <!-- Footer Nav -->
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Acceuil</a></li>
+                                <li><a href="#">A propos</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+{% block javascripts %}
+
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/jquery/jquery-2.2.4.min.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/bootstrap/popper.min.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/bootstrap/bootstrap.min.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/plugins/plugins.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/active.js') }}></script>
+
+{% endblock %}
+</html>

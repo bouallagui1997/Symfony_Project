@@ -1,0 +1,45 @@
+{% extends '@backoffice/basedashboard.html.twig' %}
+
+  {% block body %}
+      <br>
+      <br>
+      <br>
+      <br>
+    <center>  <h2>Liste des questions:</h2> </center>
+      <div class="pull-right"  >
+          <h3 class="fa fa-print" ><a href="{{path('listeQuestionpdfDASHBOARD')}}"> telecharger cette page </a> </h3>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <table class="table">
+
+          <thead class="thead-light">
+          <tr>
+              <th class="text-success">Numero du question</th>
+              <th class="text-success">Titre question(cliquer ici pour voir la liste des reponse)</th>
+              <th class="text-success">Utilisateur</th>
+              <th class="text-success">Actions</th>
+          </tr>
+          </thead>
+
+{% for list in listeQuestion %}
+
+    <tbody>
+    <tr>
+
+            <td>{{ list.id }}</td>
+            <td><a href="{{ path('affichereponseDASHBOARD' ,{'id':list.id},{}) }}">{{ list.titreQuestion }}</a></td>
+            <td>  <a href="#"><i class="fa fa-user" aria-hidden="true"></i>  {{ list.user }}</a>   </td>
+        <td>
+                <a href="{{ path('deletequestionDASHBOARD',{'id':list.id}) }}" onclick="return confirm('Voulez vous vraiment supprimer cette question ?');">    <button type="button" class="btn btn-success">supprimer</button>   </a>
+        </td>
+    </tr>
+{% endfor %}
+
+</tbody>
+    </table>
+
+  {% endblock %}

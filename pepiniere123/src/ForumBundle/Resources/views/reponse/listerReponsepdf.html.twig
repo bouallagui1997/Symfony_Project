@@ -1,0 +1,98 @@
+
+{% block stylesheets %}
+
+    <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/bootstrap.min.css') }}>
+    <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/animate.css')  }}>
+
+    <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/font-awesome.min.css')  }}>
+    <link href={{  app.request.scheme ~ '://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css'  }} rel="stylesheet" id="bootstrap-css">
+
+{% endblock %}
+
+{% block body %}
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="single-blog-post mb-50">
+
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><i class="fa fa-home"></i> accueil de forum</li>
+                            <li class="breadcrumb-item">detail de question</li>
+                            <li class="breadcrumb-item active" aria-current="page">liste des commentaires</li>
+
+                        </ol>
+                        <div class="pull-right"  >
+                        </div>
+
+                    </nav>
+
+                </div>
+
+                <label style="font-size: 30px">{% if reponse != null %} {{ reponse[0].question.titreQuestion  }} </label><br/><br/>
+                <label style="font-size: 15px; margin-left:30px; "><p>{{ reponse[0].question.descriptionQuestion }}</p></label> <br>
+
+                <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  >{{ reponse[0].question.dateQuestion | date }} </label>
+                <br/>
+                <br/>   <button type="button" class="btn btn-success">commenter</button>
+                {% endif %}
+                <br/><br/>
+
+                {% for r in reponse %}
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading"> <h4> commentaire n:  {{  r.id }}</h4></div>
+                        <div class="panel-body">
+
+                            <h4>
+                                {{ r.descriptionReponse }}
+                                <br>
+                            </h4>
+
+                            <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  >
+                                {{ r.dateReponse|date }}
+                            </label>
+
+
+
+                            <br>
+                            <br>
+                            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                {% if (app.user.username==r.question.user )%}
+                                     <button type="button" class="btn btn-success">modifier</button>
+                                    <button type="button" class="btn btn-success">supprimer</button>
+                                {% endif %}
+                            {% endif %}
+
+
+                        </div>
+
+                    </div>
+                {% endfor  %}
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+
+    <script src={{ app.request.schemeAndHttpHost ~ asset('js/tableauquestion.js') }} ></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/bootstrap/popper.min.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/bootstrap/bootstrap.min.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/plugins/plugins.js') }}></script>
+    <script src={{  app.request.schemeAndHttpHost ~ asset('js/active.js') }}></script>
+
+{% endblock %}

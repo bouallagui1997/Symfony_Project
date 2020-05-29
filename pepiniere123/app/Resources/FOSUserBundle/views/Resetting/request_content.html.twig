@@ -1,0 +1,24 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="breadcrumb-area">
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+
+    </div>
+
+</div>
+<section class="form-login">
+    <div class="container">
+        <div class="row">
+            <div class="offset-2 col-md-8">
+<form action="{{ path('fos_user_resetting_send_email') }}" method="POST" class="fos_user_resetting_request">
+    <div>
+        <label for="username">{{ 'resetting.request.username'|trans }}</label>
+        <input type="text" id="username" name="username" required="required" />
+    </div>
+    <div>
+        <input type="submit" value="{{ 'resetting.request.submit'|trans }}" />
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+</section>

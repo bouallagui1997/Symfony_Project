@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}{{parent()}}{% endblock %}
+
+{% block body %}
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+            <h2> </h2>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+
+        {{ form_start(form) }}
+            <h5>Ajouter une question</h5>
+            <br>
+            {{ form_label(form.titreQuestion, 'Question') }}
+            {{ form_errors(form.titreQuestion) }}
+            {{ form_widget(form.titreQuestion, {'attr': {'class': 'form-control'}}) }}
+            {{ form_label(form.descriptionQuestion, 'description') }}
+            {{ form_errors(form.descriptionQuestion) }}
+            {{ form_widget(form.descriptionQuestion, {'attr': {'class': 'form-control'}}) }}
+
+        {{ form_end(form) }}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{parent()}}
+    <script language="JavaScript">
+    $('button').attr('class', 'btn btn-success');
+    $('input').attr('class', '  col-md-12');
+
+</script>{% endblock %}

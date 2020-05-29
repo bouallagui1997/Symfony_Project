@@ -1,0 +1,63 @@
+{% extends '@backoffice/basedashboard.html.twig' %}
+
+ {% block body %}
+     <br>
+     <br>
+     <br>
+     <br>
+<center>
+     <h2>Liste des commentaire de question :</h2>
+    <br>
+    <br>
+    <div class="pull-right"  >
+        {% if reponse != null %}
+        <h3 class="fa fa-print" ><a href="{{path('affichereponsepdfDASHBOARD',{'id':reponse[0].question.id})}}"> telecharger cette page </a> </h3>
+        {% endif %}
+
+    </div>
+</center>
+     <label>titre de question: <br>
+            {% if reponse != null %} {{ reponse[0].question.titreQuestion  }}</label>
+         <br/>
+         <label > Contenue de question: <p>{{ reponse[0].question.descriptionQuestion }}</p></label> <br>
+         <label > date de'ajout de question: </label>
+         <label class="fa fa-clock-o" aria-hidden="true"  >{{ reponse[0].question.dateQuestion | date }} </label>
+         <br/>
+         {% endif %}
+
+
+     <br>
+
+     <table class="table">
+
+     <thead class="thead-light">
+     <tr>
+         <th class="text-success">Numero du commentaire</th>
+         <th class="text-success">Description du commentaire</th>
+         <th class="text-success">Date du commentaire</th>
+         <th class="text-success">Action</th>
+     </tr>
+     </thead>
+     {% for r in reponse %}
+     <tbody>
+     <tr>
+
+         <td>   {{  r.id }}</td>
+
+           <td> {{ r.descriptionReponse }}</td>
+
+         <td>
+                 <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  >
+                     {{ r.dateReponse|date }}
+                 </label>
+         </td>
+
+         <td> <a href="{{ path('deletereponseDASHBOARD',{'idrep':r.id}) }}" onclick="return confirm('Voulez vous vraiment supprimer cette question ?');">
+                 <button type="button" class="btn btn-success">supprimer</button>   </a> </td>
+
+     </tr>
+
+     {% endfor  %}
+     </tbody>
+     </table>
+ {% endblock %}

@@ -1,0 +1,130 @@
+
+{% block stylesheets %}
+    <link href={{ app.request.schemeAndHttpHost ~ asset('css/tableauquestion.css') }} rel="stylesheet" >
+    <link rel="stylesheet" href={{ app.request.schemeAndHttpHost ~ asset('css/font-awesome.min.css')  }}>
+
+    <link href={{  app.request.scheme ~ '://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css'  }} rel="stylesheet" id="bootstrap-css">
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center"
+             style="background-image: url({{ app.request.schemeAndHttpHost ~ asset('img/bg-img/24.jpg')}});">
+            <h2></h2>
+
+        </div>
+    </div>
+
+
+    <section class="alazea-blog-area mb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="row">
+
+                        <!-- Single Blog Post Area -->
+                        <div class="col-12 col-lg-6">
+                            <div class="single-blog-post mb-50">
+
+
+                                <div class="col-12">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> accueil de forum</a></li>
+
+                                        </ol>
+                                    </nav>
+                                </div>
+
+
+
+
+                                <!------ Include the above in your HEAD tag ---------->
+
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading">
+                                                    <h3 class="panel-title">liste des questions:</h3>
+                                                    <div class="pull-right">
+							<span class="clickable filter"  title="Toggle table filter" data-container="body">
+
+								<i class="glyphicon glyphicon-filter"></i>
+							</span>
+                                                    </div>
+                                                </div>
+                                                <div class="panel-body" style="display: none">
+                                                    <input type="text" class="form-control" id="task-table-filter" data-action="filter" data-filters="#task-table" placeholder="Filter Tasks" />
+                                                </div>
+                                                <table class="table table-hover" id="task-table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>numero:</th>
+                                                        <th>Titre Question</th>
+
+                                                        <th>Nom d'utilisateur</th>
+                                                        <th>Actions</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    {% for list in listeQuestion %}
+                                                        <tr>
+                                                            <td>{{ list.id }}</td>
+                                                            <td>{{ list.titreQuestion }}</td>
+                                                            <td>{{ list.user }}</td>
+
+                                                            <td>
+                                                                <div>   <button type="button" class="btn btn-success">commenter</button>
+                                                                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                                                    {% if (app.user.username==list.user )%}
+                                                                      <button type="button" class="btn btn-success">modifier</button>
+                                                                    <button type="button" class="btn btn-success">supprimer</button>
+                                                                </div>
+                                                                {% endif %}
+                                                                {% endif %}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script src={{ app.request.schemeAndHttpHost ~ asset('js/tableauquestion.js') }} ></script>
+    <script src={{ app.request.scheme ~ '://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js' }}></script>
+
+    <script src={{ app.request.scheme ~ '://code.jquery.com/jquery-1.11.1.min.js' }}></script>
+    <script language="JavaScript">
+        $('button').attr('class', 'btn btn-success');
+    </script>
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+            <h2>Shop </h2>
+
+        </div>
+    </div>
+    <section class="shop-page section-padding-0-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="shop-sorting-data d-flex flex-wrap align-items-center justify-content-between">
+                        {#-------------------------------- Sort and show --------------------------------------------------#}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="shop-sidebar-area">
+                    {#------------------------------------------- filtre by price ----------------------------------------------------------#}
+                    <div class="shop-widget price mb-50">
+                        <h4 class="widget-title">Prix : </h4>
+                        <div class="widget-desc">
+                            <div class="slider-range">
+                                <div data-min="8" data-max="30" data-unit="$" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="8" data-value-max="30" data-label-result="Prix :">
+                                    <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                    <span class="ui-slider-handle ui-state-default ui-corner-all first-handle" tabindex="0"></span>
+                                    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                </div>
+                                <div class="range-price">Prix: $8 - $30</div>
+                            </div>
+                        </div>
+                    </div>
+                    {#------------------------------------------------- filter by categorie ----------------------------------------------------------#}
+                    <div class="shop-widget catagory mb-50">
+                        <h4 class="widget-title">Catégories : </h4>
+                        <div class="widget-desc">
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+            <div class="col-12 col-md-8 col-lg-9">
+                <div class="shop-products-area">
+                    <div class="row">
+                        {% for product in products %}
+
+
+                     {# ------------------- Exemple de produit -------------------------------- #}
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="single-product-area mb-50">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <a href="shop-details.html"><img src="{{ asset('img/bg-img/40.png') }}" alt=""></a>
+                                    <!-- Product Tag -->
+                                    <div class="product-tag">
+                                        <a href="#">Hot</a>
+                                    </div>
+                                    <div class="product-meta d-flex ">
+
+                                        <a href="cart.html" class="add-to-cart-btn offset-2 col-8">Add to cart</a>
+
+                                    </div>
+                                </div>
+                                <!-- Product Info -->
+                                <div class="product-info mt-15 text-center">
+                                    <a href="shop-details.html">
+                                        <p>{{ product.name }}</p>
+                                    </a>
+                                    <h6>${{ product.price }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+{% endblock %}

@@ -1,0 +1,96 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{parent()}}
+
+    <link href={{  app.request.scheme ~ '://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css'  }} rel="stylesheet" id="bootstrap-css">
+
+{% endblock %}
+
+{% block body %}
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="single-blog-post mb-50">
+
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ path('listeQuestion') }}"><i class="fa fa-home"></i>Accueil de forum</a></li>
+
+                            <li class="breadcrumb-item active" aria-current="page">liste des commentaires</li>
+
+                        </ol>
+                        <div class="pull-right"  >
+                            {% if reponse != null %}
+                            <h3 class="fa fa-print" ><a href="{{path('affichereponsepdf',{'id':reponse[0].question.id})}}"> telecharger cette page </a> </h3>
+                            {% endif %}
+
+                        </div>
+
+                    </nav>
+
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <label style="font-size: 30px">{% if reponse != null %} {{ reponse[0].question.titreQuestion  }} </label></div><br/><br/>
+                    <div class="panel-body">
+                        <label style="font-size: 15px; margin-left:30px; "><p>{{ reponse[0].question.descriptionQuestion }}</p></label> <br>
+
+                        <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  >{{ reponse[0].question.dateQuestion | date }} </label>
+                        <br/>
+                        <br/><a href="{{ path('ajoutReponse' ,{'id':reponse[0].question.id}) }}">    <button type="button" class="btn btn-success">commenter</button>   </a>
+                        {% endif %}
+
+                        </div>
+                </div>
+
+
+                <br/><br/>
+
+                {% for r in reponse %}
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading"> <h4> commentaire n°: {{  r.id }}</h4></div>
+                        <div class="panel-body">
+
+                            <h4>
+                                {{ r.descriptionReponse }}
+                                <br>
+                            </h4>
+
+                            <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  >
+                                {{ r.dateReponse|date }}
+                            </label>
+
+
+                                <br>
+                            <br>
+                            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                            {% if (app.user.username==r.question.user )%}
+                            <a href="{{ path('modifierreponse',{'idrep':r.id}) }}">    <button type="button" class="btn btn-success">modifier</button>   </a>
+                            <a href="{{ path('deletereponse',{'idrep':r.id}) }}" onclick="return confirm('Voulez vous vraiment supprimer cette question ?');">    <button type="button" class="btn btn-success">supprimer</button>   </a>
+                        {% endif %}
+                            {% endif %}
+
+
+                        </div>
+
+                    </div>
+                {% endfor  %}
+
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}    {{parent()}}
+    <script src={{ app.request.schemeAndHttpHost ~ asset('js/tableauquestion.js') }} ></script>{% endblock %}

@@ -1,0 +1,11 @@
+shop_homepage:
+    path:     /
+    defaults: { _controller: shopBundle:Default:index }
+
+shop_category:
+    resource: "@shopBundle/Controller/CategoryController.php"
+    type:     annotation
+
+shop_product:
+    resource: "@shopBundle/Controller/ProductController.php"
+    type:     annotation

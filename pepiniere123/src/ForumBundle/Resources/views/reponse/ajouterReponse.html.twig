@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+
+
+{% block body %}
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            {{ form_start(form) }}
+            {{ form_end(form) }}
+
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{parent()}}
+    <script language="JavaScript">
+        $('button').attr('class', 'btn btn-success');
+        $('input').attr('class', '  col-md-12');
+
+    </script>
+
+{% endblock %}

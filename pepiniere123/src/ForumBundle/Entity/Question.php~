@@ -1,0 +1,178 @@
+<?php
+
+namespace ForumBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as BaseUser;
+
+/**
+ * Question
+ *
+ * @ORM\Table(name="question")
+ * @ORM\Entity(repositoryClass="ForumBundle\Repository\QuestionRepository")
+ */
+class Question extends BaseUser
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="titre_question", type="string", length=255)
+     */
+    private $titreQuestion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description_question", type="string", length=255)
+     */
+    private $descriptionQuestion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_question", type="date")
+     */
+    private $dateQuestion;
+
+    /**
+     * @var string
+     * @ORM\ManyToOne(targetEntity="User")
+     * @ORM\JoinColumn(name="user_id",referencedColumnName="id")
+     */
+
+    protected $user;
+
+    /**
+     * @return string
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * @param string $user
+     */
+    public function setUser($user)
+    {
+        $this->user = $user;
+    }
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="user_id", type="string", length=255)
+     */
+    private $user_id;
+
+    /**
+     * @return string
+     */
+    public function getUserId()
+    {
+        return $this->user_id;
+    }
+
+    /**
+     * @param string $user_id
+     */
+    public function setUserId($user_id)
+    {
+        $this->user_id = $user_id;
+    }
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set titreQuestion
+     *
+     * @param string $titreQuestion
+     *
+     * @return Question
+     */
+    public function setTitreQuestion($titreQuestion)
+    {
+        $this->titreQuestion = $titreQuestion;
+
+        return $this;
+    }
+
+    /**
+     * Get titreQuestion
+     *
+     * @return string
+     */
+    public function getTitreQuestion()
+    {
+        return $this->titreQuestion;
+    }
+
+    /**
+     * Set descriptionQuestion
+     *
+     * @param string $descriptionQuestion
+     *
+     * @return Question
+     */
+    public function setDescriptionQuestion($descriptionQuestion)
+    {
+        $this->descriptionQuestion = $descriptionQuestion;
+
+        return $this;
+    }
+
+    /**
+     * Get descriptionQuestion
+     *
+     * @return string
+     */
+    public function getDescriptionQuestion()
+    {
+        return $this->descriptionQuestion;
+    }
+
+    /**
+     * Set dateQuestion
+     *
+     * @param \DateTime $dateQuestion
+     *
+     * @return Question
+     */
+    public function setDateQuestion($dateQuestion)
+    {
+        $this->dateQuestion = $dateQuestion;
+
+        return $this;
+    }
+
+    /**
+     * Get dateQuestion
+     *
+     * @return \DateTime
+     */
+    public function getDateQuestion()
+    {
+        return $this->dateQuestion  ;
+    }
+
+
+}

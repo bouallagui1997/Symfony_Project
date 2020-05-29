@@ -1,0 +1,7 @@
+backoffice_homepage:
+    path:     /dashboard
+    defaults: { _controller: backofficeBundle:Default:index }
+
+backoffice_category:
+    path:     /category
+    defaults: { _controller: backofficeBundle:Default:category }

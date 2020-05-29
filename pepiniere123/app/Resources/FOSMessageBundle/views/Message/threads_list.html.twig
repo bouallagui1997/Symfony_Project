@@ -1,0 +1,115 @@
+<table class="table">
+
+    <thead class="thead-light">
+        <tr>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}subject{% endtrans %}</th>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}starter{% endtrans %}</th>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}startdate{% endtrans %}</th>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}nombre de messages{% endtrans %}</th>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}last_message{% endtrans %}</th>
+            <th class="text-success">{% trans from 'FOSMessageBundle' %}actions{% endtrans %}</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src={{ asset('img/core-img/leaf.png') }} alt="">
+        </div>
+    </div>
+
+    {% if threads %}
+        {% for thread in threads %}
+            <tr>
+
+                <td>
+                    <div>
+                    <a href="{{ url('fos_message_thread_view', {'threadId': thread.id}) }}" > {{ thread.subject }}
+                    </a>
+
+                    {% if not fos_message_is_read(thread) %}
+
+
+
+                          {% trans from 'FOSMessageBundle' %}
+
+                              <span class="glyphicon glyphicon-envelope"></span>   nouveau
+
+                    {% endtrans %}
+                    {% endif %}
+                    </div>
+                </td>
+                <br>
+
+
+                <td>
+                    <div>
+                    {{ thread.createdBy }}
+                    </div>
+                </td>
+
+
+                <td>
+                    <label style="font-size: 12px" class="fa fa-clock-o" aria-hidden="true"  > {{ thread.createdAt|date }} </label>
+                </td>
+                <td>
+                    {{ thread.messages|length }}
+                </td>
+                <td>
+                    {% if thread.lastMessage %}
+                        <a href="{{ url('fos_message_thread_view', {'threadId': thread.id}) }}#message_{{ thread.lastMessage.id }}" title="{% trans from 'FOSMessageBundle' %}goto_last{% endtrans %}">
+                            →
+                        </a>
+                        {% trans with {'%date%': thread.lastMessage.createdAt|date} from 'FOSMessageBundle' %}on{% endtrans %}
+                        <br />
+                        {% trans with {'%sender%': thread.lastMessage.sender|e } from 'FOSMessageBundle' %}by{% endtrans %}
+                    {% else %}
+                        ----
+                    {% endif %}
+                </td>
+                <td>
+                    {% if fos_message_can_delete_thread(thread) %}
+                        {% if fos_message_deleted_by_participant(thread) %}
+                            {% set formAction %}{{ url('fos_message_thread_undelete', {'threadId': thread.id}) }}{% endset %}
+                            {% set submitValue %}{% trans from 'FOSMessageBundle' %}undelete{% endtrans %}{% endset %}
+                        {% else %}
+                            {% set formAction %}{{ url('fos_message_thread_delete', {'threadId': thread.id}) }}{% endset %}
+                            {% set submitValue %}{% trans from 'FOSMessageBundle' %}delete{% endtrans %}{% endset %}
+                        {% endif %}
+
+
+                        <form action="{{ formAction }}" method="post">
+                            <button type="submit" class="btn btn-success">{{ submitValue }}</button>
+
+                        </form>
+                    {% endif %}
+
+
+                        <button type="submit" class="btn btn-success">
+                            <span class="fa fa-send-o"></span>
+                        <a href="{{ url('fos_message_thread_view', {'threadId': thread.id}) }}" > ouvrir la discussion
+                        </a>
+                        </button>
+
+                </td>
+
+
+                </td>
+            </tr>
+        {% endfor %}
+    {% else %}
+        <tr>
+            <td colspan="6">
+                {% trans from 'FOSMessageBundle' %}no_thread{% endtrans %}.
+
+
+
+            </td>
+        </tr>
+    {% endif %}
+
+    </tbody>
+
+</table>

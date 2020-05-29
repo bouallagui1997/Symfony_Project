@@ -1,0 +1,21 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="breadcrumb-area">
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+
+    </div>
+
+</div>
+<section class="form-login">
+    <div class="container">
+        <div class="row">
+            <div class="offset-2 col-md-8">
+{{ form_start(form, { 'action': path('fos_user_group_edit', {'groupName': group_name}), 'attr': { 'class': 'fos_user_group_edit' } }) }}
+    {{ form_widget(form) }}
+    <div>
+        <input type="submit" value="{{ 'group.edit.submit'|trans }}" />
+    </div>
+{{ form_end(form) }}
+            </div>
+        </div>
+    </div>
+</section>

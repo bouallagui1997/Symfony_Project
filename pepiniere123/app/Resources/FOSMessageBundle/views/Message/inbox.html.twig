@@ -1,0 +1,35 @@
+{% extends 'FOSMessageBundle::layout.html.twig' %}
+
+
+
+{% block fos_message_content %}
+
+
+ <center>
+
+
+    <nav class="nav nav-pills flex-column flex-sm-row">
+
+        <a class="nav-link active bg-success" href="{{ url('fos_message_inbox') }}">{% trans from 'FOSMessageBundle' %}inbox{% endtrans %}</a>
+        <a class="nav-link" href="{{ url('fos_message_sent') }}">{% trans from 'FOSMessageBundle' %}sent{% endtrans %}</a>
+        <a class="nav-link" href="{{ url('fos_message_deleted') }}">{% trans from 'FOSMessageBundle' %}deleted{% endtrans %}</a>
+    </nav>
+
+<h2>{% trans from 'FOSMessageBundle' %}inbox{% endtrans %}</h2>
+
+
+     <br>
+    {% include 'FOSMessageBundle:Message:threads_list.html.twig' with {'threads': threads} %}
+     <br>
+
+     <a href="{{ url('fos_message_thread_new' )}}">
+         <button class="btn btn-primary" type="submit"><span class="fa fa-send-o"></span>  {% trans from 'FOSMessageBundle' %}send_new{% endtrans %}  </button>
+     </a>
+     <br>
+     <br>
+     <br>
+     <br><br><br><br>
+
+
+ </center>
+{% endblock %}

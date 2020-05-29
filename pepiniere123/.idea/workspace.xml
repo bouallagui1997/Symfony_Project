@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef50acff-41b5-4370-a28b-7733c850f7c6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="29c83bba-1600-4d3f-90b6-97a5534b3a52" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2088924038">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.577" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="create-project_from_ComposerProjectGenerator" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options">
+        <counts>
+          <entry key="create-project_with_--ansi_--no-interaction_--no-progress.default" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="2" />
+          <entry key="json" value="2" />
+          <entry key="php" value="4" />
+          <entry key="png" value="2" />
+          <entry key="twig" value="5" />
+          <entry key="yml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PHP" value="4" />
+          <entry key="Twig" value="5" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="36" />
+          <entry key="php" value="24" />
+          <entry key="twig" value="553" />
+          <entry key="txt" value="6" />
+          <entry key="yml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="36" />
+          <entry key="PHP" value="24" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Twig" value="553" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1589386239">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="321527969">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="151" />
+          <entry key="twig" value="177" />
+          <entry key="txt" value="50" />
+          <entry key="yml" value="295" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="151" />
+          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="Twig" value="177" />
+          <entry key="YAML" value="295" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="4" />
+          <entry key="twig" value="24" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="4" />
+          <entry key="Twig" value="24" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1979805529">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="43" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="_htaccess" value="1" />
+          <entry key="css" value="12" />
+          <entry key="js" value="10" />
+          <entry key="md" value="1" />
+          <entry key="php" value="235" />
+          <entry key="scss" value="1" />
+          <entry key="twig" value="341" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="JavaScript" value="10" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="235" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="1" />
+          <entry key="Twig" value="341" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="dummy" value="29" />
+          <entry key="js" value="69" />
+          <entry key="php" value="4164" />
+          <entry key="twig" value="7262" />
+          <entry key="txt" value="1249" />
+          <entry key="yml" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="JavaScript" value="69" />
+          <entry key="PHP" value="4164" />
+          <entry key="PLAIN_TEXT" value="1278" />
+          <entry key="Twig" value="7262" />
+          <entry key="YAML" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pepiniere123" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/QuestionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="24" column="69" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="69" />
+              <folding>
+                <element signature="e#42#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/ReponseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="204" column="22" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="22" />
+              <folding>
+                <element signature="e#125#156#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/ReponseMobileController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="79" selection-end-column="44" />
+              <folding>
+                <element signature="e#161#192#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Entity/Reponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="151" column="31" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listereponse.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="68" column="48" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/QuestionMobileController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+              <folding>
+                <element signature="e#42#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumBundle/Entity/Question.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1065">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/tableauquestion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/chatbox.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Click the filter icon</find>
+      <find>glyphicon glyphicon-filter</find>
+      <find>app.request.schemeAndHttpHost ~</find>
+      <find>dropdown</find>
+      <find>class=&quot;breadcrumb&quot;</find>
+      <find>style=&quot;background-image: url(/pepiniere123/web/img/bg-img/24.jpg);&quot;</find>
+      <find>style=&quot;background-image: u</find>
+      <find>imp</find>
+      <find>imprimer</find>
+      <find>Gestion de forum</find>
+      <find>Gestion de fo</find>
+      <find>Gestion</find>
+      <find>gith</find>
+      <find>te</find>
+      <find>liste des commentaires</find>
+      <find>Envoyer</find>
+      <find>Envoyer un nouveau message</find>
+      <find>Boîte</find>
+      <find>class=&quot;col-md-4 col-xs-4&quot;</find>
+      <find>nouveau</find>
+      <find>class=&quot;glyphicon glyphicon-minus icon_minim&quot;</find>
+      <find>forum</find>
+      <find>nav-link active bg-success</find>
+      <find>new</find>
+      <find>(</find>
+      <find>Type key</find>
+      <find>data-fi</find>
+      <find>tel</find>
+      <find>tele</find>
+      <find>data</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;link rel=&quot;stylesheet&quot; href={{ asset('css/</replace>
+      <replace />
+      <replace>product_</replace>
+      <replace>category_</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\pepiniere123\app</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\app\config</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\AppBundle</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\backofficeBundle</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\shopBundle</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\ForumBundle</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\app\Resources\FOSUserBundle</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\vendor\friendsofsymfony\user-bundle\Model</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\ForumBundle\Resources\views\question</dir>
+      <dir>C:\xampp\htdocs\pepiniere123\src\ForumBundle\Resources\views</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:create" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update --dump-sql" />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s cache:clear" />
+      <command text="s fos:user:promote admin ROLE_ADMIN" />
+      <command text="c clear-cache" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update " />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s cache:clear" />
+      <command text="c clear-cache" />
+      <command text="s doctrine:schema:create" />
+      <command text="s doctrine:schema:update " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="debug:container" />
+      <command text="s debug:container " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c clear-cache" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ForumBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Repository/ReponseRepository.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/succes.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Form/QuestionType.php" />
+        <option value="$PROJECT_DIR$/web/css/bootstraptableau.css" />
+        <option value="$PROJECT_DIR$/web/css/classy-nav.css" />
+        <option value="$PROJECT_DIR$/web/css/tableauquestion.css" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/ajouterQuestion.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/modifierQuestion.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/question.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/modifierReponse.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/question.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Form/ReponseType.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listerReponsepdf.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/vendor/autoload.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Controller/MessageController.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/views/Message/inbox.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listequestionpdf.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/deleted.html.twig" />
+        <option value="$PROJECT_DIR$/src/backofficeBundle/Resources/views/Default/dashboard.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/newThread.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/ajouterReponse.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listequestionpdfDASHBOARD.html.twig" />
+        <option value="$PROJECT_DIR$/src/backofficeBundle/Resources/views/basedashboard.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listeQuestionDASHBOARD.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listereponseDASHBOARD.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listerReponsepdfDASHBOARD.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listereponse.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/sent.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/inbox.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/thread.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/tableauquestion.js" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Controller/QuestionController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/threads_list.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listeQuestion.html.twig" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Entity/Question.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Controller/ReponseController.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Entity/Reponse.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Controller/ReponseMobileController.php" />
+        <option value="$PROJECT_DIR$/src/ForumBundle/Controller/QuestionMobileController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/message-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1385" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ForumBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="reponse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepiniere123" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepiniere123" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="dash&#9;FILE&#9;file://C:/xampp/htdocs/pepiniere123/src/backofficeBundle/Resources/views/Default/dashboard.html.twig" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfony-api" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pepiniere123\src\ForumBundle\Controller" />
+      <recent name="C:\xampp\htdocs\pepiniere123\web\js" />
+      <recent name="C:\xampp\htdocs\pepiniere123\web\css" />
+      <recent name="C:\xampp\htdocs\pepiniere123\app\Resources" />
+      <recent name="C:\xampp\htdocs\pepiniere123\src\ForumBundle\Resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pepiniere123\src\backofficeBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\pepiniere123\app\Resources\views" />
+      <recent name="C:\xampp\htdocs\pepiniere123\src\backofficeBundle\Resources\views\Default" />
+      <recent name="C:\xampp\htdocs\pepiniere123\src\shopBundle\Resources\views" />
+      <recent name="C:\wamp64_2\www\pepiniere12\app\Resources\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MessageController.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pepiniere123/message-bundle/FOS/MessageBundle/Controller/MessageController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.MessageController.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef50acff-41b5-4370-a28b-7733c850f7c6" name="Default Changelist" comment="" />
+      <created>1549498822444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549498822444</updated>
+      <workItem from="1549498823861" duration="17914000" />
+      <workItem from="1549811141231" duration="61000" />
+      <workItem from="1549811207119" duration="83000" />
+      <workItem from="1549811317302" duration="23000" />
+      <workItem from="1549811489369" duration="79000" />
+      <workItem from="1549811605460" duration="7801000" />
+      <workItem from="1550074953685" duration="5525000" />
+      <workItem from="1550135868100" duration="652000" />
+      <workItem from="1550134320819" duration="5616000" />
+      <workItem from="1550236375095" duration="387000" />
+      <workItem from="1550238236148" duration="1341000" />
+      <workItem from="1550267015604" duration="2179000" />
+      <workItem from="1550318442493" duration="7455000" />
+      <workItem from="1550362494397" duration="20611000" />
+      <workItem from="1550510590287" duration="6257000" />
+      <workItem from="1550522160011" duration="5960000" />
+      <workItem from="1550555851637" duration="13851000" />
+      <workItem from="1550582635460" duration="68533000" />
+      <workItem from="1550726520352" duration="15287000" />
+      <workItem from="1550845863958" duration="957000" />
+      <workItem from="1550849920183" duration="633000" />
+      <workItem from="1550853098195" duration="9309000" />
+      <workItem from="1550915781174" duration="6000" />
+      <workItem from="1550942412055" duration="488000" />
+      <workItem from="1550943856926" duration="25988000" />
+      <workItem from="1550973049573" duration="3469000" />
+      <workItem from="1551015553632" duration="14103000" />
+      <workItem from="1551038540244" duration="30000" />
+      <workItem from="1551040280174" duration="118000" />
+      <workItem from="1551045665668" duration="25000" />
+      <workItem from="1551050268547" duration="2975000" />
+      <workItem from="1551053540947" duration="2668000" />
+      <workItem from="1551080972596" duration="309000" />
+      <workItem from="1551088547242" duration="715000" />
+      <workItem from="1551095275802" duration="29000" />
+      <workItem from="1551096289756" duration="1206000" />
+      <workItem from="1551109235598" duration="16895000" />
+      <workItem from="1551182758778" duration="18625000" />
+      <workItem from="1551208333010" duration="7000" />
+      <workItem from="1551209055995" duration="381000" />
+      <workItem from="1551209472430" duration="735000" />
+      <workItem from="1551211833671" duration="82000" />
+      <workItem from="1551216960312" duration="2510000" />
+      <workItem from="1551219960685" duration="115000" />
+      <workItem from="1551221309225" duration="145000" />
+      <workItem from="1551222013181" duration="375000" />
+      <workItem from="1551222780315" duration="215000" />
+      <workItem from="1551270504067" duration="18000" />
+      <workItem from="1551280147411" duration="40000" />
+      <workItem from="1551291472052" duration="5054000" />
+      <workItem from="1551297111637" duration="16000" />
+      <workItem from="1551301807988" duration="19000" />
+      <workItem from="1551339003029" duration="3029000" />
+      <workItem from="1551342090541" duration="399000" />
+      <workItem from="1551342913496" duration="35000" />
+      <workItem from="1551344484693" duration="3019000" />
+      <workItem from="1551961171015" duration="776000" />
+      <workItem from="1556128018063" duration="704000" />
+      <workItem from="1556182353261" duration="2187000" />
+      <workItem from="1556186522877" duration="11677000" />
+      <workItem from="1556260269429" duration="623000" />
+      <workItem from="1556296950147" duration="10477000" />
+      <workItem from="1556522578771" duration="11469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="332270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5010571" side_tool="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989429" visible="true" weight="0.17114094" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" sideWeight="0.88590604" weight="0.41702127" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067115" side_tool="true" weight="0.27092198" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49932885" weight="0.46666667" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49932885" weight="0.16737589" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32765958" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/app_dev.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/backofficeBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/ajouterReponse.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/modifierReponse.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backofficeBundle/Resources/views/Default/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/succes.html.twig" />
+    <entry file="file://$PROJECT_DIR$/src/backofficeBundle/Resources/views/Default/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backofficeBundle/Resources/views/basedashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listerReponsepdf.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listereponseDASHBOARD.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstraptableau.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/DashboardController.php" />
+    <entry file="file://$PROJECT_DIR$/web/css/messagebox.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listerReponsepdfDASHBOARD.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/sent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/newThread.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/deleted.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/inbox.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/thread.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listequestionpdf.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listequestionpdfDASHBOARD.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/modifierQuestion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="9" selection-start-line="22" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Repository/ReponseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSMessageBundle/views/Message/threads_list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/question.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/1.php" />
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listeQuestion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="91" column="137" selection-start-line="91" selection-start-column="137" selection-end-line="91" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/question/listeQuestionDASHBOARD.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Repository/QuestionRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Resources/views/reponse/listereponse.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="48" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/tableauquestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/chatbox.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/QuestionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="69" />
+          <folding>
+            <element signature="e#42#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Entity/Reponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Entity/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/ReponseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="204" column="22" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="22" />
+          <folding>
+            <element signature="e#125#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/ReponseMobileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="79" selection-end-column="44" />
+          <folding>
+            <element signature="e#161#192#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumBundle/Controller/QuestionMobileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <element signature="e#42#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

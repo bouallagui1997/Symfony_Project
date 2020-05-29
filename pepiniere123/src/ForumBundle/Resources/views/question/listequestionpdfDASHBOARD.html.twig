@@ -1,0 +1,38 @@
+{% extends '@backoffice/basedashboard.html.twig' %}
+
+  {% block body %}
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>  <h2>Liste des questions:</h2> </center>
+      <br>
+      <table class="table">
+
+          <thead class="thead-light">
+          <tr>
+              <th class="text-success">Numero du question</th>
+              <th class="text-success">Titre question(cliquer ici pour voir la liste des reponse)</th>
+              <th class="text-success">Utilisateur</th>
+              <th class="text-success">Actions</th>
+          </tr>
+          </thead>
+
+          {% for list in listeQuestion %}
+
+          <tbody>
+          <tr>
+
+              <td>{{ list.id }}</td>
+              <td>{{ list.titreQuestion }}</td>
+              <td> <i class="fa fa-user" aria-hidden="true"></i>  {{ list.user }}  </td>
+              <td>
+                  <button type="button" class="btn btn-success">supprimer</button>
+              </td>
+          </tr>
+          {% endfor %}
+
+          </tbody>
+      </table>
+
+  {% endblock %}

@@ -1,0 +1,33 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="breadcrumb-area">
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url({{ asset('img/bg-img/24.jpg') }});">
+        <h2>wahb </h2>
+
+    </div>
+
+
+</div>
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div class="container">
+    <br><br>
+    <div class="registration">
+        <div class="registration_left">
+            <h2> Créer votre compte</h2>
+
+            <div class="registration_form">
+                <!-- Form -->
+                <form  action="{{ path('fos_user_registration_register') }}" method="post" class="fos_user_registration_register">
+
+                    {{ form_widget(form) }}
+                    <div>
+                        <input type="submit" value="Créer mon compte" />
+                    </div>
+
+                </form>
+                <!-- /Form -->
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
